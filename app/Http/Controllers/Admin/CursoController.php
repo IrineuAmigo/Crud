@@ -58,7 +58,7 @@ public function salvar(Request $req)
         // abre a visão da lista de cursos
 }
 
-    public function atualizar(Request $req, $id)
+    public function atualizar(Request $req, int $id)
 {
         $dados = $req->all();
     if(isset($dados['publicado'])){
